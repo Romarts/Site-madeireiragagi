@@ -46,6 +46,7 @@
     </div>
   </div>
 </nav>
+
 <!-- Barra de Pesquisa -->
  
 <section class="py-5 bg-light">
@@ -59,20 +60,20 @@
 </section>
 </div>
 
-<!-- Conteúdo principal -->
+<!-- Banners -->
 <div class="container my-5">
   <h2 class="text-center mb-4">Produtos</h2>
 
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Site Imagens Madeireira/Produto 1.png" class="d-block w-100" alt="...">
+      <img src="https://static.wixstatic.com/media/5c1bfe_5a1b658dcc4147eea73158de2a3b96d4~mv2.jpg/v1/fill/w_640,h_425,al_c,q_80,enc_avif,quality_auto/5c1bfe_5a1b658dcc4147eea73158de2a3b96d4~mv2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img class="carrossel" src="Site Imagens Madeireira/Tijolo.png" class="d-block w-100" alt="Tijolo" alt="Tijolos">
     </div>
     <div class="carousel-item">
-      <img src="Site Imagens Madeireira/Produto 1.png" class="d-block w-100" alt="...">
+      <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=MjYyMA%2C%2C" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -88,9 +89,61 @@
 <br>
 <br>
 
-  <!-- Grid de produtos (Ferramenta 2 e 3) -->
+  <!-- Grid de produtos -->
 <div class="container my-5">
-  <h2 class="text-center mb-4">Tipo de Produto 1</h2>
+  <h2 class="text-center mb-4">Madeiras</h2>
+  <div class="position-relative">
+    <div class="produto-carrossel-container" id="carrosselProdutos">
+      <!-- Card de produto usando Bootstrap -->
+      <div class="card produto-card">
+        <img src="Site Imagens Madeireira/Produto 1.png" class="card-img-top" alt="Produto 1">
+        <div class="card-body">
+          <h5 class="card-title">Produto 1</h5>
+          <p class="card-text">Descrição do produto 1.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 2">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">Descrição do produto 2.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 3">
+        <div class="card-body">
+          <h5 class="card-title">Produto 3</h5>
+          <p class="card-text">Descrição do produto 3.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 4">
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">Descrição do produto 4.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Adicione quantos quiser -->
+    </div>
+    <button class="carrossel-seta" onclick="rolarCarrossel()">
+      &#8594;
+    </button>
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Tijolos</h2>
   <div class="position-relative">
     <div class="produto-carrossel-container" id="carrosselProdutos">
       <!-- Card de produto usando Bootstrap -->
@@ -99,7 +152,7 @@
         <div class="card-body">
           <h5 class="card-title">Produto 1</h5>
           <p class="card-text">Descrição do produto 1.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -107,7 +160,7 @@
         <div class="card-body">
           <h5 class="card-title">Produto 2</h5>
           <p class="card-text">Descrição do produto 2.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -115,7 +168,7 @@
         <div class="card-body">
           <h5 class="card-title">Produto 3</h5>
           <p class="card-text">Descrição do produto 3.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -123,7 +176,204 @@
         <div class="card-body">
           <h5 class="card-title">Produto 4</h5>
           <p class="card-text">Descrição do produto 4.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <!-- Adicione quantos quiser -->
+    </div>
+    <button class="carrossel-seta" onclick="rolarCarrossel()">
+      &#8594;
+    </button>
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Batentes</h2>
+  <div class="position-relative">
+    <div class="produto-carrossel-container" id="carrosselProdutos">
+      <!-- Card de produto usando Bootstrap -->
+      <div class="card produto-card">
+        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=ODE2Nw%2C%2C" class="card-img-top" alt="Produto 1">
+        <div class="card-body">
+          <h5 class="card-title">Produto 1</h5>
+          <p class="card-text">Descrição do produto 1.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 2">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">Descrição do produto 2.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 3">
+        <div class="card-body">
+          <h5 class="card-title">Produto 3</h5>
+          <p class="card-text">Descrição do produto 3.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 4">
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">Descrição do produto 4.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <!-- Adicione quantos quiser -->
+    </div>
+    <button class="carrossel-seta" onclick="rolarCarrossel()">
+      &#8594;
+    </button>
+  </div>
+</div>
+</div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Fechaduras</h2>
+  <div class="position-relative">
+    <div class="produto-carrossel-container" id="carrosselProdutos">
+      <!-- Card de produto usando Bootstrap -->
+      <div class="card produto-card">
+        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=NTQ4OQ%2C%2C" class="card-img-top" alt="Fechadura 3F Stillus">
+        <div class="card-body">
+          <h5 class="card-title">Fechadura 3F Stillus</h5>
+          <p class="card-text">Descrição do produto 1.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=ODE1OA%2C%2C" class="card-img-top" alt="Fechadura 3F Bella">
+        <div class="card-body">
+          <h5 class="card-title">Fechadura 3F Bella</h5>
+          <p class="card-text">Descrição do produto 2.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=NTU2NQ%2C%2C" class="card-img-top" alt="Fechadura 3F Roseta Quadrada">
+        <div class="card-body">
+          <h5 class="card-title">Fechadura 3F Roseta Quadrada</h5>
+          <p class="card-text">Descrição do produto 3.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://www.3f.com.br/site/img/produtos/6000/M%C3%A1quina%206145%20CR.jpg" class="card-img-top" alt="Fechadura 3F Bico Papagaio">
+        <div class="card-body">
+          <h5 class="card-title">Fechadura 3F Bico Papagaio</h5>
+          <p class="card-text">Descrição do produto 4.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <!-- Adicione quantos quiser -->
+
+       <div class="card produto-card">
+        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=MTM1OTY%2C" class="card-img-top" alt="Fechadura 3F Avião">
+        <div class="card-body">
+          <h5 class="card-title">Fechadura 3F Avião</h5>
+          <p class="card-text">Descrição do produto 4.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+
+    </div>
+    <button class="carrossel-seta" onclick="rolarCarrossel()">
+      &#8594;
+    </button>
+  </div>
+</div>
+</div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Dobradiças</h2>
+  <div class="position-relative">
+    <div class="produto-carrossel-container" id="carrosselProdutos">
+      <!-- Card de produto usando Bootstrap -->
+      <div class="card produto-card">
+        <img src="https://www.schild.com.br/produtos/1168.jpg" class="card-img-top" alt="Dobradiça Shild Simples Cromada">
+        <div class="card-body">
+          <h5 class="card-title">Dobradiça Shild Simples Cromada</h5>
+          <p class="card-text">Descrição do produto 1.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://www.schild.com.br/produtos/1281.jpg" class="card-img-top" alt="Dobradiça Shild Simples Black">
+        <div class="card-body">
+          <h5 class="card-title">Dobradiça Shild Simples Black</h5>
+          <p class="card-text">Descrição do produto 2.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 3">
+        <div class="card-body">
+          <h5 class="card-title">Produto 3</h5>
+          <p class="card-text">Descrição do produto 3.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 4">
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">Descrição do produto 4.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <!-- Adicione quantos quiser -->
+    </div>
+    <button class="carrossel-seta" onclick="rolarCarrossel()">
+      &#8594;
+    </button>
+  </div>
+</div>
+</div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Jogos de Vistas</h2>
+  <div class="position-relative">
+    <div class="produto-carrossel-container" id="carrosselProdutos">
+      <!-- Card de produto usando Bootstrap -->
+      <div class="card produto-card">
+        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=ODE2Nw%2C%2C" class="card-img-top" alt="Produto 1">
+        <div class="card-body">
+          <h5 class="card-title">Produto 1</h5>
+          <p class="card-text">Descrição do produto 1.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 2">
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">Descrição do produto 2.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 3">
+        <div class="card-body">
+          <h5 class="card-title">Produto 3</h5>
+          <p class="card-text">Descrição do produto 3.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
+        </div>
+      </div>
+      <div class="card produto-card">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 4">
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">Descrição do produto 4.</p>
+          <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
       <!-- Adicione quantos quiser -->
@@ -146,6 +396,13 @@
   <p> Desenvolvido por Gabriel Romagnolli Tartarelli</p>
 </footer>
 </div>
+
+<div class="whats">
+  <a href="https://wa.me/554498290220" target="_blank">
+  <img src="Site Imagens Madeireira/Botao WhatsApp.png" alt="WhatsApp">
+  </a>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

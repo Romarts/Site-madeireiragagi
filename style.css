@@ -70,10 +70,45 @@
   color: #cccccc !important; /* um leve cinza para dar destaque no hover */
 }
 
+.dropdown-menu{
+  background-color: #000;
+}
+
+.dropdown-item{
+  background-color: #000;
+}
+
+.btn-comprar {
+  background-color: #3E8914;
+  border-color: #3E8914;
+  color: white;
+}
+
+.btn-comprar:hover {
+  background-color: #356c11; /* Um tom mais escuro para o hover */
+  border-color: #356c11;
+}
+
+.whats{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;  
+}
+
+.whats img{
+  width: 70px;
+}
+
 footer {
-  background-color: #000000 !important; /* fundo preto puro */
-  color: #ffffff; /* texto branco */
-  margin: 0%;
+  background-color: #000;
+  color: #fff;
+  margin-left: calc(-50vw + 50%);
+  padding: 2rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
 }
 
 footer a {
