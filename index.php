@@ -93,7 +93,7 @@
 <div class="container my-5">
   <h2 class="text-center mb-4">Madeiras</h2>
   <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselProdutos">
+    <div class="produto-carrossel-container" id="carrosselProdutosMadeiras">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
         <img src="Site Imagens Madeireira/Produto 1.png" class="card-img-top" alt="Produto 1">
@@ -132,7 +132,7 @@
 </div>
       <!-- Adicione quantos quiser -->
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel()">
+    <button class="carrossel-seta" onclick="rolarCarrossel(carrosselProdutosMadeiras)">
       &#8594;
     </button>
   </div>
@@ -330,7 +330,7 @@
           <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
-      <!-- Adicione quantos quiser -->
+    
     </div>
     <button class="carrossel-seta" onclick="rolarCarrossel()">
       &#8594;
@@ -376,7 +376,7 @@
           <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
-      <!-- Adicione quantos quiser -->
+    
     </div>
     <button class="carrossel-seta" onclick="rolarCarrossel()">
       &#8594;
