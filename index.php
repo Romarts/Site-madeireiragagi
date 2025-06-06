@@ -12,7 +12,7 @@
 <!-- Navbar (Ferramenta 1) -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="index.php">
       <img src="Site Imagens Madeireira/Logo.jpeg" alt="Logo" style="height: 50px;" class="me-2">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Pagina Inicial</a>
+          <a class="nav-link" href="index.php">Pagina Inicial</a>
                   <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Produtos
@@ -37,10 +37,10 @@
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="quemsomos.html">Quem Somos?</a>
+          <a class="nav-link" href="quemsomos.php">Quem Somos?</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="Contato.html">Contato</a>
+          <a class="nav-link" href="Contato.php">Contato</a>
         </li>
       </ul>
     </div>
@@ -132,9 +132,6 @@
 </div>
       <!-- Adicione quantos quiser -->
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel(carrosselProdutosMadeiras)">
-      &#8594;
-    </button>
   </div>
 </div>
 </div>
