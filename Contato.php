@@ -21,10 +21,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Pagina Inicial</a>
+          <a class="nav-link" href="index.php"><strong>Pagina Inicial</strong></a>
                   <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Produtos
+           <strong> Produtos</strong>
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Madeiras</a></li>
@@ -37,15 +37,16 @@
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="quemsomos.php">Quem Somos?</a>
+          <a class="nav-link" href="quemsomos.php"><strong>Quem Somos?</strong></a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="Contato.php">Contato</a>
+          <a class="nav-link" href="Contato.php"><strong>Contato</strong></a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
 <br>
 <h1 class="text-center mb-4"> Contato </h1>
 <br>

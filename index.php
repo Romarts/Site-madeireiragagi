@@ -89,18 +89,18 @@
     <div class="produto-carrossel-container" id="carrosselMadeiras">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
-        <img src="Site Imagens Madeireira/Produto 1.png" class="card-img-top" alt="Produto 1">
+        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="TabuaPinus30centrimetros">
         <div class="card-body">
-          <h5 class="card-title">Produto 1</h5>
-          <p class="card-text">Descrição do produto 1.</p>
+          <h5 class="card-title">Tabua 30cm de Pinus</h5>
+          <p class="card-text"> <strong> R$ 12,00 o metro</strong></p>
           <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 2">
+        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="TabuaEucalipto25centimetros">
         <div class="card-body">
-          <h5 class="card-title">Produto 2</h5>
-          <p class="card-text">Descrição do produto 2.</p>
+          <h5 class="card-title">Tabua 25cm de Eucalipto</h5>
+          <p class="card-text"><strong>R$ 9,00 o metro</strong></p>
           <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
@@ -367,10 +367,10 @@
         </div>
       </div>
       <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 3">
+        <img src="https://xg1e7cnw4i.execute-api.us-east-1.amazonaws.com/image/casteloforte/image/catalog/product/fit-in/1000x1000/122861.jpg" class="card-img-top" alt="Produto 3">
         <div class="card-body">
-          <h5 class="card-title">Produto 3</h5>
-          <p class="card-text">Descrição do produto 3.</p>
+          <h5 class="card-title">Jogo de Vista de 7cm</h5>
+          <p class="card-text">R$95,00</p>
           <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
