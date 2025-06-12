@@ -46,8 +46,92 @@
     </div>
   </div>
 </nav>
-
+<br>
 <h1 class="text-center mb-4"> Contato </h1>
+<br>
+  <style>    
+    body {
+          overflow-x: hidden; 
+        } 
+
+    .zap{
+        text-decoration: none;
+        color: #1C1C1C
+        }
+
+    .container {
+      display: flex;
+      padding: 30px;
+    }
+    .info {
+      width: 50%;
+      background-color: #f0f0f0;
+      padding: 30px;
+    }
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+    .info-item img {
+      width: 24px;
+      height: 24px;
+      margin-right: 15px;
+    }
+    
+    @media (min-width: 768px) {
+  .info {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+  </style>
+
+    <div class="info">
+
+      <div class="info-item">
+        <img src="https://img.icons8.com/?size=100&id=i3XElI5CmcBP&format=png&color=000000" alt="Email" />
+        <div>
+
+          <strong>E-MAIL DA LOJA</strong><br>
+          madeireiragagi@hotmail.com
+        </div>
+      </div>
+      
+      <div class="info-item">
+
+        <img src="https://img.icons8.com/?size=100&id=16733&format=png&color=000000" alt="WhatsApp" />
+        
+        <a href="https://wa.me/554498290220" target="_blank" class='zap'>
+          <strong >WHATSAPP</strong><br>
+          (44) 9 9829-0220
+         </a>
+
+      </div>
+
+      <div class="info-item">
+        <img class="icones"src="https://img.icons8.com/?size=100&id=6902&format=png&color=000000" alt="Horário" />
+        <div>
+
+          <strong>HORÁRIO DE FUNCIONAMENTO</strong><br>
+          Segunda à Sexta - 08h às 18h<br/>
+          Sábado - 08h ao 12h
+        </div>
+      </div>
+
+      <div class="info-item">
+        <a class="zap" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.9930035169496!2d-52.38144072546805!3d-24.031311879024017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed752163ff895d%3A0x43628b10f307879b!2sMadeireira%20Gagi!5e0!3m2!1spt-BR!2sbr!4v1747607929632!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <img src="https://img.icons8.com/?size=100&id=41445&format=png&color=000000" alt="Endereço" />
+        <div>
+
+          <strong>ENDEREÇO DA LOJA</strong><br>
+          Avenida Goioerê, 2329 - Centro - Campo Mourão - PR, 87303-110
+        </a>
+        </div>
+      </div>
+
+    </div>
 
 <div class="row">
 <div class="container my-5">
@@ -120,6 +204,12 @@
   <p> Desenvolvido por Gabriel Romagnolli Tartarelli</p>
 </footer>
 
+</div>
+
+<div class="whats">
+  <a href="https://wa.me/554498290220" target="_blank">
+  <img src="Site Imagens Madeireira/Botao WhatsApp.png" alt="WhatsApp">
+  </a>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

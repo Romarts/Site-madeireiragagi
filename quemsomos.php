@@ -74,6 +74,12 @@
 
 </div>
 
+<div class="whats">
+  <a href="https://wa.me/554498290220" target="_blank">
+  <img src="Site Imagens Madeireira/Botao WhatsApp.png" alt="WhatsApp">
+  </a>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

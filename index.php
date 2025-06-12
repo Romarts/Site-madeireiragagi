@@ -21,10 +21,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Pagina Inicial</a>
+          <a class="nav-link" href="index.php"><strong>Pagina Inicial</strong></a>
                   <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Produtos
+           <strong> Produtos</strong>
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Madeiras</a></li>
@@ -37,10 +37,10 @@
         </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="quemsomos.php">Quem Somos?</a>
+          <a class="nav-link" href="quemsomos.php"><strong>Quem Somos?</strong></a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="Contato.php">Contato</a>
+          <a class="nav-link" href="Contato.php"><strong>Contato</strong></a>
         </li>
       </ul>
     </div>
@@ -58,12 +58,9 @@
     </form>
   </div>
 </section>
-</div>
 
 <!-- Banners -->
 <div class="container my-5">
-  <h2 class="text-center mb-4">Produtos</h2>
-
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -85,15 +82,11 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-<br>
-<br>
-
   <!-- Grid de produtos -->
 <div class="container my-5">
   <h2 class="text-center mb-4">Madeiras</h2>
   <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselProdutosMadeiras">
+    <div class="produto-carrossel-container" id="carrosselMadeiras">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
         <img src="Site Imagens Madeireira/Produto 1.png" class="card-img-top" alt="Produto 1">
@@ -128,9 +121,17 @@
         </div>
       </div>
     </div>
+    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselMadeiras')">
+      &#8594;
+    </button>
+
   </div>
 </div>
+
       <!-- Adicione quantos quiser -->
+
+
+
     </div>
   </div>
 </div>
@@ -142,7 +143,7 @@
 <div class="container my-5">
   <h2 class="text-center mb-4">Tijolos</h2>
   <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselProdutos">
+    <div class="produto-carrossel-container" id="carrosselTijolos">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
         <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 1">
@@ -178,9 +179,17 @@
       </div>
       <!-- Adicione quantos quiser -->
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel()">
+    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselTijolos')">
       &#8594;
     </button>
+
+<script>
+  function rolarCarrossel(id) {
+    const carrossel = document.getElementById(id);
+    carrossel.scrollLeft += 420;
+  }
+</script>
+
   </div>
 </div>
 </div>
@@ -191,7 +200,7 @@
 <div class="container my-5">
   <h2 class="text-center mb-4">Batentes</h2>
   <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselProdutos">
+    <div class="produto-carrossel-container" id="carrosselBatentes">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
         <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=ODE2Nw%2C%2C" class="card-img-top" alt="Produto 1">
@@ -227,7 +236,7 @@
       </div>
       <!-- Adicione quantos quiser -->
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel()">
+    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselBatentes')">
       &#8594;
     </button>
   </div>
@@ -237,7 +246,7 @@
 <div class="container my-5">
   <h2 class="text-center mb-4">Fechaduras</h2>
   <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselProdutos">
+    <div class="produto-carrossel-container" id="carrosselFechaduras">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
         <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=NTQ4OQ%2C%2C" class="card-img-top" alt="Fechadura 3F Stillus">
@@ -283,7 +292,7 @@
       </div>
 
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel()">
+    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselFechaduras')">
       &#8594;
     </button>
   </div>
@@ -293,7 +302,7 @@
 <div class="container my-5">
   <h2 class="text-center mb-4">Dobradiças</h2>
   <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselProdutos">
+    <div class="produto-carrossel-container" id="carrosselDobradicas">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
         <img src="https://www.schild.com.br/produtos/1168.jpg" class="card-img-top" alt="Dobradiça Shild Simples Cromada">
@@ -329,7 +338,7 @@
       </div>
     
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel()">
+    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselDobradicas')">
       &#8594;
     </button>
   </div>
@@ -339,7 +348,7 @@
 <div class="container my-5">
   <h2 class="text-center mb-4">Jogos de Vistas</h2>
   <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselProdutos">
+    <div class="produto-carrossel-container" id="carrosselJogosdeVistas">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
         <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=ODE2Nw%2C%2C" class="card-img-top" alt="Produto 1">
@@ -365,17 +374,8 @@
           <a href="#" class="btn btn-comprar">Comprar</a>
         </div>
       </div>
-      <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 4">
-        <div class="card-body">
-          <h5 class="card-title">Produto 4</h5>
-          <p class="card-text">Descrição do produto 4.</p>
-          <a href="#" class="btn btn-comprar">Comprar</a>
-        </div>
-      </div>
-    
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel()">
+    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselJogosdeVistas')">
       &#8594;
     </button>
   </div>
