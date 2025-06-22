@@ -52,7 +52,7 @@
 <br>
   <style>    
     body {
-          overflow-x: hidden; 
+          overflow-x: hidden;
         } 
 
     .zap{
@@ -60,10 +60,6 @@
         color: #1C1C1C
         }
 
-    .container {
-      display: flex;
-      padding: 30px;
-    }
     .info {
       width: 50%;
       background-color: #f0f0f0;
@@ -79,7 +75,49 @@
       height: 24px;
       margin-right: 15px;
     }
-    
+
+    .bloco-contato {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .info, .formulario {
+    flex: 1 1 45%;
+    min-width: 300px;
+    box-sizing: border-box;
+  }
+
+  .info {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .formulario {
+    width: 50%;
+    padding: 30px;
+    text align:center;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+  }
+
+  .formulario input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .formulario button {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  btn btn-primary mt-3
     @media (min-width: 768px) {
   .info {
     grid-template-columns: 1fr 1fr;
@@ -87,8 +125,9 @@
 }
 
   </style>
+<div class="bloco-contato">
+  <div class="info">
 
-    <div class="info">
 
       <div class="info-item">
         <img src="https://img.icons8.com/?size=100&id=i3XElI5CmcBP&format=png&color=000000" alt="Email" />
@@ -98,6 +137,9 @@
           madeireiragagi@hotmail.com
         </div>
       </div>
+
+      <br>
+      <br>
       
       <div class="info-item">
 
@@ -110,6 +152,9 @@
 
       </div>
 
+      <br>
+      <br>
+
       <div class="info-item">
         <img class="icones"src="https://img.icons8.com/?size=100&id=6902&format=png&color=000000" alt="Horário" />
         <div>
@@ -119,6 +164,9 @@
           Sábado - 08h ao 12h
         </div>
       </div>
+
+      <br>
+      <br>
 
       <div class="info-item">
         <a class="zap" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.9930035169496!2d-52.38144072546805!3d-24.031311879024017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed752163ff895d%3A0x43628b10f307879b!2sMadeireira%20Gagi!5e0!3m2!1spt-BR!2sbr!4v1747607929632!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -134,34 +182,50 @@
 
     </div>
 
-<div class="row">
-<div class="container my-5">
-  
+<div class="formulario">
+  <h1> Envie uma mensagem! </h1>
         <form id="form1">
               <label for="nome">Nome:</label>
-              <input type="text" id="nome">
+              <input type="text" id="nome" class="form-control">
 
               <label for="email">E-mail:</label>
-              <input type="email" id="email">
+              <input type="email" id="email" class="form-control">
 
 
               <label for="telefone">Telefone:</label>
-              <input type="text" id="telefone">
+              <input type="text" id="telefone" class="form-control">
 
               <label for="mensagem">Mensagem:</label>
-              <input type="text" id="mensagem">
+              <input type="text" id="mensagem" class="form-control">
 
 
-            <button type="button" id="botao">Enviar</button>
+            <label>Entrega na cidade?</label>
+            <br>
+            <div class="btn-group mb-4" role="group" aria-label="Entrega na cidade?">
+            <input type="radio" class="btn-check" name="entrega" id="entregaSim" autocomplete="off" checked>
+            <label class="btn btn-outline-success me-3" for="entregaSim">Sim</label>
+
+           <input type="radio" class="btn-check" name="entrega" id="entregaNao" autocomplete="off">
+            <label class="btn btn-outline-danger" for="entregaNao">Não</label>
+          </div>
+
+          <div id="campoCidade" class="mt-4" style="display: none;">
+          <label for="cidade">Digite o nome da cidade:</label>
+          <input type="text" id="cidade" class="form-control">
+          </div>
+            
+            <button type="button" id="botao" class="btn btn-success mt-3">Enviar</button>
 
           </form>
-    </p>
+          <br>
+  </div>
     <script>
         document.getElementById("botao").onclick = function(){
             var nome = document.getElementById("nome").value;
             var email = document.getElementById("email").value
             var telefone = document.getElementById("telefone").value
             var mensagem = document.getElementById("mensagem").value
+            var cidade = document.getElementById("cidade").value;
 
             if (nome == "" && email == "" && telefone == "" && mensagem == ""){
                 alert("Preencha todos os campos para enviar");
@@ -186,10 +250,21 @@
         alert("Informe um e-mail válido.");
         return false;
     }
+                if (document.getElementById("entregaNao").checked && cidade.trim() === ""){
+          alert("Por favor, informe o nome da cidade para entrega!");
+          return false;
+      }
         if (nome !== "" && email !== "" && telefone !== "" && mensagem !== ""){
             alert("Mensagem enviada com sucesso!");
         }
     }
+
+      document.getElementById("entregaSim").onclick = function() {
+    document.getElementById("campoCidade").style.display = "none";
+  };
+  document.getElementById("entregaNao").onclick = function() {
+    document.getElementById("campoCidade").style.display = "block";
+  };
     </script>
 </div>
 </div>

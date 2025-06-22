@@ -27,7 +27,7 @@
            <strong> Produtos</strong>
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="madeiras.php">Madeiras</a></li>
+            <li><a class="dropdown-item" href="#">Madeiras</a></li>
             <li><a class="dropdown-item" href="#">Tijolos</a></li>
             <li><a class="dropdown-item" href="#">Batentes</a></li>
             <li><a class="dropdown-item" href="#">Fechaduras</a></li>
@@ -59,29 +59,6 @@
   </div>
 </section>
 
-<!-- Banners -->
-<div class="container my-5">
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://static.wixstatic.com/media/5c1bfe_5a1b658dcc4147eea73158de2a3b96d4~mv2.jpg/v1/fill/w_640,h_425,al_c,q_80,enc_avif,quality_auto/5c1bfe_5a1b658dcc4147eea73158de2a3b96d4~mv2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img class="carrossel" src="Site Imagens Madeireira/Tijolo.png" class="d-block w-100" alt="Tijolo" alt="Tijolos">
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=MjYyMA%2C%2C" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
   <!-- Grid de produtos -->
 <div class="container my-5">
   <h2 class="text-center mb-4">Vigas</h2>
@@ -89,7 +66,7 @@
     <div class="produto-carrossel-container" id="carrosselvigas">
       <!-- Card de produto usando Bootstrap -->
        <div class="card produto-card">
-        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffzmadeiras.com.br%2Fuploads%2F555.jpg&f=1&nofb=1&ipt=fed204d10ce1bd1dfce07f934dfd249fb653c34441237c912fd0993f24c4c8c4" class="card-img-top" alt="vigapinus5por10">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigapinus5por10">
         <div class="card-body">
           <h5 class="card-title">Viga Pinus 5x10cm</h5>
           <p class="card-text"><strong>R$ 8,50 o metro</strong></p>
@@ -98,7 +75,7 @@
         </div>
 
         <div class="card produto-card">
-        <img src="https://acdn-us.mitiendanube.com/stores/001/058/571/products/whatsapp-image-2024-10-23-at-15-59-04-4d12e4d1b4423d4d4717297101500895-1024-1024.jpeg" class="card-img-top" alt="vigaeucalipto5por10">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigaeucalipto5por10">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x10cm</h5>
           <p class="card-text"><strong>R$10,00 o metro</strong></p>
@@ -432,263 +409,6 @@
     </button>
       </div> <!-- Fecha .position-relative -->
     </div> <!-- Fecha .container.my-5 -->
-<br>
-<br>
-
-<div class="container my-5">
-  <h2 class="text-center mb-4">Tijolos</h2>
-  <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselTijolos">
-      <!-- Card de produto usando Bootstrap -->
-      <div class="card produto-card">
-        <img src="https://cdn.leroymerlin.com.br/products/tijolo_a_vista_6_furos_9x14x24cm_ceramica_porto_galera_89088923_5090_600x600.jpg" class="card-img-top" alt="tijolo6furos">
-        <div class="card-body">
-          <h5 class="card-title"><strong>Tijolo 6 Furos 9x14x24cm</strong></h5>
-          <p class="card-text"><strong>R$780,00 o Milheiro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://acdn-us.mitiendanube.com/stores/831/827/products/tijolo_8_furos_curitiba-8b92e8d2aa01653f6317165827781999-320-0.webp" class="card-img-top" alt="tijolo8furos9emeio">
-        <div class="card-body">
-          <h5 class="card-title">Tijolo 8 furos 9,5x19x29cm</h5>
-          <p class="card-text"><strong>Descrição do produto 2.</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://acdn-us.mitiendanube.com/stores/831/827/products/tijolo_8_furos_curitiba-dc07ba5e80fae38cda17165695330388-480-0.png" class="card-img-top" alt="tijolo8furos11emeio">
-        <div class="card-body">
-          <h5 class="card-title">Tijolo 8 furos 11,5x19x29cm</h5>
-          <p class="card-text"><strong>Descrição do produto 3.</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://images.tcdn.com.br/img/img_prod/1235569/180_tijolo_9_furos_14x19x24_ceramico_2395_1_68eda4c13ae89b64ac548924d5669de6.jpeg" class="card-img-top" alt="tijolo9furos">
-        <div class="card-body">
-          <h5 class="card-title">Tijolo 9 furos 11,5x14x24cm</h5>
-          <p class="card-text"><strong>Descrição do produto 4.</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <!-- Adicione quantos quiser -->
-    </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselTijolos')">
-      &#8594;
-    </button>
-
-    </div>
-    </div>
-<script>
-  function rolarCarrossel(id) {
-    const carrossel = document.getElementById(id);
-    carrossel.scrollLeft += 420;
-  }
-</script>
-
-<br>
-<br>
-
-<div class="container my-5">
-  <h2 class="text-center mb-4">Batentes</h2>
-  <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselBatentes">
-      <!-- Card de produto usando Bootstrap -->
-        <div class="card produto-card">
-        <img src="https://product-hub-prd.madeiramadeira.com.br/668072337/images/c310973c-f3fe-4332-aa1d-2e1d43e4ecd11440ab7f4355f95890f00b3f75.JPG?width=500&canvas=1:1&bg-color=FFF" class="card-img-top" alt="batentede9emeio">
-        <div class="card-body">
-          <h5 class="card-title">Batente Tauari 7,5 Montado</h5>
-          <p class="card-text"><strong>R$ 175,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-        </div>
-
-      <div class="card produto-card">
-        <img src="https://product-hub-prd.madeiramadeira.com.br/668072337/images/c310973c-f3fe-4332-aa1d-2e1d43e4ecd11440ab7f4355f95890f00b3f75.JPG?width=500&canvas=1:1&bg-color=FFF" class="card-img-top" alt="batentede9emeio">
-        <div class="card-body">
-          <h5 class="card-title">Batente Tauari 9,5 Montado</h5>
-          <p class="card-text"><strong>R$ 175,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-        </div>
-
-      <div class="card produto-card">
-        <img src="https://madermac.cdn.magazord.com.br/img/2025/03/produto/5165/batente-tauari-comercial-4.png?ims=fit-in/600x600/filters:fill(white)" class="card-img-top" alt="batentede13">
-        <div class="card-body">
-          <h5 class="card-title">Batente Tauari 13cm Montado</h5>
-          <p class="card-text"><strong>R$ 190,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-        </div>
-
-      <div class="card produto-card">
-        <img src="https://madermac.cdn.magazord.com.br/img/2025/03/produto/5165/batente-tauari-comercial-4.png?ims=fit-in/600x600/filters:fill(white)" class="card-img-top" alt="batentede14">
-        <div class="card-body">
-          <h5 class="card-title">Batente Tauari 14cm Montado</h5>
-          <p class="card-text"><strong>R$ 190,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-        </div>
-
-      <div class="card produto-card">
-        <img src="https://images.tcdn.com.br/img/img_prod/1111274/batente_em_tauari_90x210cm_requadro_15cm_madefort_241_2_5081b7bd985ec0945b3ee275dc6d94c5.jpeg" class="card-img-top" alt="batente15">
-        <div class="card-body">
-          <h5 class="card-title">Batente Tauari 15cm Montado</h5>
-          <p class="card-text"><strong>R$ 215,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-        </div>
-
-
-    </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselBatentes')">
-      &#8594;
-    </button>
-      </div> <!-- Fecha .position-relative -->
-    </div> <!-- Fecha .container.my-5 -->
-
-<br>
-<br>
-
-<div class="container my-5">
-  <h2 class="text-center mb-4">Fechaduras</h2>
-  <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselFechaduras">
-      <!-- Card de produto usando Bootstrap -->
-      <div class="card produto-card">
-        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=NTQ4OQ%2C%2C" class="card-img-top" alt="Fechadura 3F Stillus">
-        <div class="card-body">
-          <h5 class="card-title">Fechadura 3F Stillus</h5>
-          <p class="card-text">Descrição do produto 1.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=ODE1OA%2C%2C" class="card-img-top" alt="Fechadura 3F Bella">
-        <div class="card-body">
-          <h5 class="card-title">Fechadura 3F Bella</h5>
-          <p class="card-text">Descrição do produto 2.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=NTU2NQ%2C%2C" class="card-img-top" alt="Fechadura 3F Roseta Quadrada">
-        <div class="card-body">
-          <h5 class="card-title">Fechadura 3F Roseta Quadrada</h5>
-          <p class="card-text">Descrição do produto 3.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://www.3f.com.br/site/img/produtos/6000/M%C3%A1quina%206145%20CR.jpg" class="card-img-top" alt="Fechadura 3F Bico Papagaio">
-        <div class="card-body">
-          <h5 class="card-title">Fechadura 3F Bico Papagaio</h5>
-          <p class="card-text">Descrição do produto 4.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <!-- Adicione quantos quiser -->
-
-       <div class="card produto-card">
-        <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=MTM1OTY%2C" class="card-img-top" alt="Fechadura 3F Avião">
-        <div class="card-body">
-          <h5 class="card-title">Fechadura 3F Avião</h5>
-          <p class="card-text">Descrição do produto 4.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-
-    </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselFechaduras')">
-      &#8594;
-    </button>
-  </div>
-</div>
-</div>
-
-<div class="container my-5">
-  <h2 class="text-center mb-4">Dobradiças</h2>
-  <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselDobradicas">
-      <!-- Card de produto usando Bootstrap -->
-      <div class="card produto-card">
-        <img src="https://www.schild.com.br/produtos/1168.jpg" class="card-img-top" alt="Dobradiça Shild Simples Cromada">
-        <div class="card-body">
-          <h5 class="card-title">Dobradiça Shild Simples Cromada</h5>
-          <p class="card-text"><strong>R$ 18,90</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://www.schild.com.br/produtos/1281.jpg" class="card-img-top" alt="Dobradiça Shild Simples Black">
-        <div class="card-body">
-          <h5 class="card-title">Dobradiça Shild Simples Black</h5>
-          <p class="card-text"><strong>R$ 18,90</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://cdn.leroymerlin.com.br/products/dobradica_para_porta_com_rolamento_ate_25kg_3_pecas_88412730_0001_600x600.jpg" class="card-img-top" alt="Produto 3">
-        <div class="card-body">
-          <h5 class="card-title">Dobradiça Rolamentada Cromada</h5>
-          <p class="card-text"><strong>R$ 45,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://www.travaforte.com.br/image/cache/data/Produtos/KI/KIT-C-3-DOBRADIAS-INOX-ROLAMENTO-FERLOCK-3-5X3-PRETA-COR-NO-DEFINIDA-465B9A21-1-300x300.jpg.webp" class="card-img-top" alt="Produto 4">
-        <div class="card-body">
-          <h5 class="card-title">Dobradiça Rolamentada Black</h5>
-          <p class="card-text"><strong>R$ 45,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    
-    </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselDobradicas')">
-      &#8594;
-    </button>
-  </div>
-</div>
-</div>
-
-<div class="container my-5">
-  <h2 class="text-center mb-4">Jogos de Vistas</h2>
-  <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselJogosdeVistas">
-      <!-- Card de produto usando Bootstrap -->
-      <div class="card produto-card">
-        <img src="https://images.tcdn.com.br/img/img_prod/412961/guarnicao_lisa_de_madeira_tauari_macica_5_cm_269677_1_7446470019757b0d4a42682b20468573_20241224094248.png" class="card-img-top" alt="Jogodevista5centimetros">
-        <div class="card-body">
-          <h5 class="card-title">Jogo de Vista 5cm</h5>
-          <p class="card-text"><strong>R$ 45,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://cdn.awsli.com.br/300x300/2464/2464768/produto/319299167/captura-de-tela-2024-11-16-231010-yw7noxhlmw.png" class="card-img-top" alt="jogodevista6centimetros">
-        <div class="card-body">
-          <h5 class="card-title">Jogo de Vista 6cm</h5>
-          <p class="card-text"><strong>R$ 75,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-      <div class="card produto-card">
-        <img src="https://xg1e7cnw4i.execute-api.us-east-1.amazonaws.com/image/casteloforte/image/catalog/product/fit-in/1000x1000/122861.jpg" class="card-img-top" alt="jogodevista7centimetros">
-        <div class="card-body">
-          <h5 class="card-title">Jogo de Vista 7cm</h5>
-          <p class="card-text"><strong>R$ 95,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselJogosdeVistas')">
-      &#8594;
-    </button>
-  </div>
-</div>
-</div>
 
 <!-- Rodapé -->
  <div class ="text-center">
@@ -706,8 +426,14 @@
   <a href="https://wa.me/554498290220" target="_blank">
   <img src="Site Imagens Madeireira/Botao WhatsApp.png" alt="WhatsApp">
   </a>
-</div>
+</div>  
 
+<script>
+  function rolarCarrossel(id) {
+    const carrossel = document.getElementById(id);
+    carrossel.scrollLeft += 420;
+  }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
