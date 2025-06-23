@@ -27,12 +27,12 @@
            <strong> Produtos</strong>
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Madeiras</a></li>
-            <li><a class="dropdown-item" href="#">Tijolos</a></li>
-            <li><a class="dropdown-item" href="#">Batentes</a></li>
-            <li><a class="dropdown-item" href="#">Fechaduras</a></li>
-            <li><a class="dropdown-item" href="#">Dobradiças</a></li>
-            <li><a class="dropdown-item" href="#">Jogos de Vistas</a></li>  
+            <li><a class="dropdown-item" href="madeiras.php">Madeiras</a></li>
+            <li><a class="dropdown-item" href="tijolos.php">Tijolos</a></li>
+            <li><a class="dropdown-item" href="batentes.php">Batentes</a></li>
+            <li><a class="dropdown-item" href="fechaduras.php">Fechaduras</a></li>
+            <li><a class="dropdown-item" href="dobradicas.php">Dobradiças</a></li>
+            <li><a class="dropdown-item" href="jogosdevistas.php">Jogos de Vistas</a></li> 
           </ul>
         </li>
         </li>
@@ -47,368 +47,422 @@
   </div>
 </nav>
 
-<!-- Barra de Pesquisa -->
- 
-<section class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-4">Busque seu produto</h2>
-    <form class="d-flex justify-content-center" role="search">
-      <input class="form-control form-control-lg w-75 me-2" type="search" placeholder="O que você está procurando?" aria-label="Buscar">
-      <button class="btn btn-success btn-lg" type="submit">Buscar</button>
-    </form>
-  </div>
-</section>
-
-  <!-- Grid de produtos -->
 <div class="container my-5">
   <h2 class="text-center mb-4">Vigas</h2>
-  <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosselvigas">
-      <!-- Card de produto usando Bootstrap -->
-       <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigapinus5por10">
+  <div class="row g-4">
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffzmadeiras.com.br%2Fuploads%2F555.jpg&f=1&nofb=1&ipt=fed204d10ce1bd1dfce07f934dfd249fb653c34441237c912fd0993f24c4c8c4" class="card-img-top" alt="Viga Pinus 5x10cm">
         <div class="card-body">
           <h5 class="card-title">Viga Pinus 5x10cm</h5>
           <p class="card-text"><strong>R$ 8,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigaeucalipto5por10">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://acdn-us.mitiendanube.com/stores/001/058/571/products/whatsapp-image-2024-10-23-at-15-59-04-4d12e4d1b4423d4d4717297101500895-1024-1024.jpeg" class="card-img-top" alt="Viga Eucalipto 5x10cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x10cm</h5>
           <p class="card-text"><strong>R$10,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigatauari5por10">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x10cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x10cm</h5>
           <p class="card-text"><strong>R$25,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigagarapeira5emeiopor10">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x10cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x10cm</h5>
           <p class="card-text"><strong>R$49,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="vigaeucalipto5por15">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Viga Eucalipto 5x15cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x15cm</h5>
-          <p class="card-text"><strong> R$ 15,00 o metro</strong></p>
+          <p class="card-text"><strong>R$ 15,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="vigatauari5por15">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Viga Tauari 5x15cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x15cm</h5>
           <p class="card-text"><strong>R$ 37,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigagarapeira5emeiopor15">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x15cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x15cm</h5>
           <p class="card-text"><strong>R$ 75,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigaeucalipto5por20">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Eucalipto 5x20cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x20cm</h5>
-          <p class="card-text"><strong>R$ 20,00 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 20,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigatauari5por20">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x20cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x20cm</h5>
-          <p class="card-text"><strong>R$ 50,00 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 50,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-              <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigagarapeira5emeiopor20">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x20cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x20cm</h5>
-          <p class="card-text"><strong>R$ 99,00 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 99,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigaeucalipto5por25">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Eucalipto 5x25cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x25cm</h5>
-          <p class="card-text"><strong>R$ 25,00 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 25,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigatauari5po25">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x25cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x25cm</h5>
-          <p class="card-text"><strong>R$ 62,50 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 62,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigagarapeira5emeiopor25">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x25cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x25cm</h5>
-          <p class="card-text"><strong>R$ 123,75 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 123,75 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigaeucalipto5por30">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Eucalipto 5x30cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x30cm</h5>
-          <p class="card-text"><strong>R$ 36,00 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 36,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigatauari5por30">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x30cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x30cm</h5>
-          <p class="card-text"><strong>R$ 75,00 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 75,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="vigagarapeira5emeiopor30">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5x30cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5x30cm</h5>
-          <p class="card-text"><strong>R$ 135,00 o metro</strong> </p>
+          <p class="card-text"><strong>R$ 135,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
-
+      </div>
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel('carrosselvigas')">
-      &#8594;
-    </button>
-      </div> <!-- Fecha .position-relative -->
-    </div> <!-- Fecha .container.my-5 -->
+
+  </div>
+</div>
+
 <br>
 <br>
 
 <div class="container my-5">
-  <h2 class="text-center mb-4">Tabuas</h2>
-  <div class="position-relative">
-    <div class="produto-carrossel-container" id="carrosseltabuas">
-      <!-- Card de produto usando Bootstrap -->
-       <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade10depinus">
+  <h2 class="text-center mb-4">Tábuas</h2>
+  <div class="row g-4">
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Pinus 10cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Pinus 10cm</h5>
           <p class="card-text"><strong>R$ 3,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade10eucalipto">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Eucalipto 10cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Eucalipto 10cm</h5>
-          <p class="card-text"><strong>R$5,00 o metro</strong></p>
+          <p class="card-text"><strong>R$ 5,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade10tauari">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 10cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Tauari 10cm</h5>
-          <p class="card-text"><strong>R$12,50 o metro</strong></p>
+          <p class="card-text"><strong>R$ 12,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade10garapeira">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 10cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Garapeira 10cm</h5>
-          <p class="card-text"><strong>R$22,50 o metro</strong></p>
+          <p class="card-text"><strong>R$ 22,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-               <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade15pinus">
+    <!-- 15cm -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Pinus 15cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Pinus 15cm</h5>
           <p class="card-text"><strong>R$ 5,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade15eucalipto">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Eucalipto 15cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Eucalipto 15cm</h5>
-          <p class="card-text"><strong>R$7,50 o metro</strong></p>
+          <p class="card-text"><strong>R$ 7,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade15tauari">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 15cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Tauari 15cm</h5>
-          <p class="card-text"><strong>R$18,75 o metro</strong></p>
+          <p class="card-text"><strong>R$ 18,75 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade15garapeira">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 15cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Garapeira 15cm</h5>
-          <p class="card-text"><strong>R$33,75 o metro</strong></p>
+          <p class="card-text"><strong>R$ 33,75 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="tabuade20pinus">
+    <!-- 20cm -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Tábua Pinus 20cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Pinus 20cm</h5>
-          <p class="card-text"><strong> R$ 6,50 o metro</strong></p>
+          <p class="card-text"><strong>R$ 6,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="tabuade20eucalipto">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Tábua Eucalipto 20cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Eucalipto 20cm</h5>
           <p class="card-text"><strong>R$ 10,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-               <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade20tauari">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 20cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Tauari 20cm</h5>
           <p class="card-text"><strong>R$ 25,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade20garapeira">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 20cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Garapeira 20cm</h5>
-          <p class="card-text"><strong>R$45,00 o metro</strong></p>
+          <p class="card-text"><strong>R$ 45,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade25pinus">
+    <!-- 25cm -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Pinus 25cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Pinus 25cm</h5>
-          <p class="card-text"><strong>R$8,40 o metro</strong></p>
+          <p class="card-text"><strong>R$ 8,40 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="tabuade25eucalipto">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Eucalipto 25cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Eucalipto 25cm</h5>
-          <p class="card-text"><strong>R$12,50 o metro</strong></p>
+          <p class="card-text"><strong>R$ 12,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="tabuade25tauari">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Tábua Tauari 25cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Tauari 25cm</h5>
-          <p class="card-text"><strong> R$ 31,25 o metro</strong></p>
+          <p class="card-text"><strong>R$ 31,25 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="tabuade25garapeira">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Tábua Garapeira 25cm">
         <div class="card-body">
           <h5 class="card-title">Tábua Garapeira 25cm</h5>
           <p class="card-text"><strong>R$ 56,25 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="TabuaPinus30centrimetros">
+    <!-- 30cm -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Tábua Pinus 30cm">
         <div class="card-body">
-          <h5 class="card-title">Tabua 30cm de Pinus</h5>
-          <p class="card-text"><strong> R$ 12,00 o metro</strong></p>
+          <h5 class="card-title">Tábua Pinus 30cm</h5>
+          <p class="card-text"><strong>R$ 12,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="TabuaEucalipto25centimetros">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Tábua Eucalipto 30cm">
         <div class="card-body">
-          <h5 class="card-title">Tabua 30cm de Eucalipto</h5>
+          <h5 class="card-title">Tábua Eucalipto 30cm</h5>
           <p class="card-text"><strong>R$ 18,00 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 3">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 30cm">
         <div class="card-body">
-          <h5 class="card-title">Tabua 30cm de Tauari</h5>
+          <h5 class="card-title">Tábua Tauari 30cm</h5>
           <p class="card-text"><strong>R$ 37,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
+      </div>
+    </div>
 
-      <div class="card produto-card">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Produto 4">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 30cm">
         <div class="card-body">
-          <h5 class="card-title">Tabua 30cm de Garapeira</h5>
-          <p class="card-text"><strong>R$ 71,50 o metro</strong> </p>
+          <h5 class="card-title">Tábua Garapeira 30cm</h5>
+          <p class="card-text"><strong>R$ 71,50 o metro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
-        </div>
-        
+      </div>
     </div>
-    <button class="carrossel-seta" onclick="rolarCarrossel('carrosseltabuas')">
-      &#8594;
-    </button>
-      </div> <!-- Fecha .position-relative -->
-    </div> <!-- Fecha .container.my-5 -->
+
+  </div>
+</div>
 
 <!-- Rodapé -->
  <div class ="text-center">

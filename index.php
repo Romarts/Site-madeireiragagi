@@ -28,11 +28,11 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="madeiras.php">Madeiras</a></li>
-            <li><a class="dropdown-item" href="#">Tijolos</a></li>
-            <li><a class="dropdown-item" href="#">Batentes</a></li>
-            <li><a class="dropdown-item" href="#">Fechaduras</a></li>
-            <li><a class="dropdown-item" href="#">Dobradiças</a></li>
-            <li><a class="dropdown-item" href="#">Jogos de Vistas</a></li>  
+            <li><a class="dropdown-item" href="tijolos.php">Tijolos</a></li>
+            <li><a class="dropdown-item" href="batentes.php">Batentes</a></li>
+            <li><a class="dropdown-item" href="fechaduras.php">Fechaduras</a></li>
+            <li><a class="dropdown-item" href="dobradicas.php">Dobradiças</a></li>
+            <li><a class="dropdown-item" href="jogosdevistas.php">Jogos de Vistas</a></li>  
           </ul>
         </li>
         </li>
@@ -47,41 +47,47 @@
   </div>
 </nav>
 
-<!-- Barra de Pesquisa -->
- 
-<section class="py-5 bg-light">
+<!-- Banners -->
+<!-- CSS: Pode colocar dentro da sua <style> ou em um arquivo separado -->
+<style>
+  .banner-gagi {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('fundo-obra.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 0;
+  }
+
+  .banner-gagi h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+  }
+
+  .banner-gagi .btn {
+    font-size: 1.2rem;
+    padding: 12px 32px;
+  }
+
+  .logo-text {
+  font-family: 'Orbitron', sans-serif;
+}
+
+  @media (max-width: 768px) {
+    .banner-gagi h1 {
+      font-size: 2rem;
+    }
+  }
+</style>
+
+<!-- HTML do banner -->
+<section class="banner-gagi text-center">
   <div class="container">
-    <h2 class="text-center mb-4">Busque seu produto</h2>
-    <form class="d-flex justify-content-center" role="search">
-      <input class="form-control form-control-lg w-75 me-2" type="search" placeholder="O que você está procurando?" aria-label="Buscar">
-      <button class="btn btn-success btn-lg" type="submit">Buscar</button>
-    </form>
+    <h1>Bem-vindo à Loja Gagi</h1>
+    <p class="lead mb-4">
+      Especialistas em materiais de construção com qualidade, confiança e atendimento que faz a diferença!
+    </p>
   </div>
 </section>
 
-<!-- Banners -->
-<div class="container my-5">
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://static.wixstatic.com/media/5c1bfe_5a1b658dcc4147eea73158de2a3b96d4~mv2.jpg/v1/fill/w_640,h_425,al_c,q_80,enc_avif,quality_auto/5c1bfe_5a1b658dcc4147eea73158de2a3b96d4~mv2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img class="carrossel" src="Site Imagens Madeireira/Tijolo.png" class="d-block w-100" alt="Tijolo" alt="Tijolos">
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=MjYyMA%2C%2C" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
   <!-- Grid de produtos -->
 <div class="container my-5">
   <h2 class="text-center mb-4">Vigas</h2>
@@ -443,7 +449,7 @@
       <div class="card produto-card">
         <img src="https://cdn.leroymerlin.com.br/products/tijolo_a_vista_6_furos_9x14x24cm_ceramica_porto_galera_89088923_5090_600x600.jpg" class="card-img-top" alt="tijolo6furos">
         <div class="card-body">
-          <h5 class="card-title"><strong>Tijolo 6 Furos 9x14x24cm</strong></h5>
+          <h5 class="card-title">Tijolo 6 Furos 9x14x24cm</h5>
           <p class="card-text"><strong>R$780,00 o Milheiro</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
@@ -498,7 +504,7 @@
         <div class="card produto-card">
         <img src="https://product-hub-prd.madeiramadeira.com.br/668072337/images/c310973c-f3fe-4332-aa1d-2e1d43e4ecd11440ab7f4355f95890f00b3f75.JPG?width=500&canvas=1:1&bg-color=FFF" class="card-img-top" alt="batentede9emeio">
         <div class="card-body">
-          <h5 class="card-title">Batente Tauari 7,5 Montado</h5>
+          <h5 class="card-title">Batente Tauari 7,5cm Montado</h5>
           <p class="card-text"><strong>R$ 175,00</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
@@ -507,7 +513,7 @@
       <div class="card produto-card">
         <img src="https://product-hub-prd.madeiramadeira.com.br/668072337/images/c310973c-f3fe-4332-aa1d-2e1d43e4ecd11440ab7f4355f95890f00b3f75.JPG?width=500&canvas=1:1&bg-color=FFF" class="card-img-top" alt="batentede9emeio">
         <div class="card-body">
-          <h5 class="card-title">Batente Tauari 9,5 Montado</h5>
+          <h5 class="card-title">Batente Tauari 9,5cm Montado</h5>
           <p class="card-text"><strong>R$ 175,00</strong></p>
           <a href="#" class="btn btn-success">Comprar</a>
         </div>
@@ -613,7 +619,7 @@
     <div class="produto-carrossel-container" id="carrosselDobradicas">
       <!-- Card de produto usando Bootstrap -->
       <div class="card produto-card">
-        <img src="https://www.schild.com.br/produtos/1168.jpg" class="card-img-top" alt="Dobradiça Shild Simples Cromada">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic3.tcdn.com.br%2Fimg%2Fimg_prod%2F15858%2Fdobradica_galvanizada_2_1_2_schild_par_cx_12_18079_1_20201228132407.jpg&f=1&nofb=1&ipt=3b699ee823d8708fb7f0d03af3d4b2b832cc55901e6c0245de42d9d92f782f47" class="card-img-top" alt="Dobradiça Shild Simples Cromada">
         <div class="card-body">
           <h5 class="card-title">Dobradiça Shild Simples Cromada</h5>
           <p class="card-text"><strong>R$ 18,90</strong></p>
@@ -621,7 +627,7 @@
         </div>
       </div>
       <div class="card produto-card">
-        <img src="https://www.schild.com.br/produtos/1281.jpg" class="card-img-top" alt="Dobradiça Shild Simples Black">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.FlPk1EMRFOTsOVzARMWzUQHaHa%26pid%3DApi&f=1&ipt=0ccc870478cf5d5ef8b2302b360753e3e42367285aeb304e4e415257e389f780" class="card-img-top" alt="Dobradiça Shild Simples Black">
         <div class="card-body">
           <h5 class="card-title">Dobradiça Shild Simples Black</h5>
           <p class="card-text"><strong>R$ 18,90</strong></p>
