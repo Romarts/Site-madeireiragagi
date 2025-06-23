@@ -58,7 +58,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Pinus 5x10cm</h5>
           <p class="card-text"><strong>R$ 8,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Pinus%205x10cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x10cm</h5>
           <p class="card-text"><strong>R$10,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Eucalipto%205x10cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x10cm</h5>
           <p class="card-text"><strong>R$25,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Tauari%205x10cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x10cm</h5>
           <p class="card-text"><strong>R$49,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Garapeira%205,5x10cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -102,7 +102,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x15cm</h5>
           <p class="card-text"><strong>R$ 15,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Eucalipto%205x15cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -113,7 +113,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x15cm</h5>
           <p class="card-text"><strong>R$ 37,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Tauari%205x15cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x15cm</h5>
           <p class="card-text"><strong>R$ 75,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Garapeira%205,5x15cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x20cm</h5>
           <p class="card-text"><strong>R$ 20,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Eucalipto%205x20cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -146,7 +146,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x20cm</h5>
           <p class="card-text"><strong>R$ 50,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Tauari%205x20cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x20cm</h5>
           <p class="card-text"><strong>R$ 99,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Garapeira%205,5x20cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -168,7 +168,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x25cm</h5>
           <p class="card-text"><strong>R$ 25,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Eucalipto%205x25cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x25cm</h5>
           <p class="card-text"><strong>R$ 62,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Tauari%205x25cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -190,7 +190,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x25cm</h5>
           <p class="card-text"><strong>R$ 123,75 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Garapeira%205,5x25cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -201,7 +201,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x30cm</h5>
           <p class="card-text"><strong>R$ 36,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Eucalipto%205x30cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -212,7 +212,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x30cm</h5>
           <p class="card-text"><strong>R$ 75,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Tauari%205x30cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -223,7 +223,7 @@
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5x30cm</h5>
           <p class="card-text"><strong>R$ 135,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Viga%20Garapeira%205,5x30cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>

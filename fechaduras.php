@@ -56,9 +56,9 @@
       <div class="card h-100">
         <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=NTQ4OQ%2C%2C" class="card-img-top" alt="Fechadura 3F Stillus">
         <div class="card-body">
-          <h5 class="card-title">Fechadura 3F Stillus</h5>
+          <h5 class="card-title">Fechadura 3F Stillus Cromada</h5>
           <p class="card-text">Descrição do produto 1.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Fechadura%203F%20Stillus" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -67,9 +67,9 @@
       <div class="card h-100">
         <img src="https://www.3f.com.br/comum/code/MostrarImagem.php?C=ODE1OA%2C%2C" class="card-img-top" alt="Fechadura 3F Bella">
         <div class="card-body">
-          <h5 class="card-title">Fechadura 3F Bella</h5>
+          <h5 class="card-title">Fechadura 3F Bella Cromada</h5>
           <p class="card-text">Descrição do produto 2.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Fechadura%203F%20Bella" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
         <div class="card-body">
           <h5 class="card-title">Fechadura 3F Roseta Quadrada</h5>
           <p class="card-text">Descrição do produto 3.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Fechadura%203F%20Roseta%20Quadrada" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
         <div class="card-body">
           <h5 class="card-title">Fechadura 3F Bico Papagaio</h5>
           <p class="card-text">Descrição do produto 4.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Fechadura%203F%20Bico%20Papagaio" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -102,7 +102,7 @@
         <div class="card-body">
           <h5 class="card-title">Fechadura 3F Avião</h5>
           <p class="card-text">Descrição do produto 5.</p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20Fechadura%203F%20Avião" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>

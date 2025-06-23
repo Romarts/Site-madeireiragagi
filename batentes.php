@@ -58,7 +58,7 @@
         <div class="card-body">
           <h5 class="card-title">Batente Tauari 7,5cm Montado</h5>
           <p class="card-text"><strong>R$ 175,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Batente%20Tauari%207,5cm%20Montado" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@
         <div class="card-body">
           <h5 class="card-title">Batente Tauari 9,5cm Montado</h5>
           <p class="card-text"><strong>R$ 175,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Batente%20Tauari%209,5cm%20Montado" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -80,7 +80,7 @@
         <div class="card-body">
           <h5 class="card-title">Batente Tauari 13cm Montado</h5>
           <p class="card-text"><strong>R$ 190,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Batente%20Tauari%2013cm%20Montado" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
         <div class="card-body">
           <h5 class="card-title">Batente Tauari 14cm Montado</h5>
           <p class="card-text"><strong>R$ 190,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Batente%20Tauari%2014cm%20Montado" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -102,7 +102,7 @@
         <div class="card-body">
           <h5 class="card-title">Batente Tauari 15cm Montado</h5>
           <p class="card-text"><strong>R$ 215,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Batente%20Tauari%2015cm%20Montado" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
