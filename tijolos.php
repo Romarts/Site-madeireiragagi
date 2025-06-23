@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Madeireira Gagi</title>
+  <link rel="icon" href="Site Imagens Madeireira/ICONE.png" type="icone" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
 </head>
@@ -57,7 +58,7 @@
         <div class="card-body">
           <h5 class="card-title">Tijolo 6 Furos 9x14x24cm</h5>
           <p class="card-text"><strong>R$ 780,00 o milheiro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Tijolo%206%20Furos%209x14x24cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -66,9 +67,9 @@
       <div class="card h-100">
         <img src="https://acdn-us.mitiendanube.com/stores/831/827/products/tijolo_8_furos_curitiba-8b92e8d2aa01653f6317165827781999-320-0.webp" class="card-img-top" alt="Tijolo 8 Furos 9,5cm">
         <div class="card-body">
-          <h5 class="card-title">Tijolo 8 Furos 9,5x19x29cm</h5>
-          <p class="card-text"><strong>Consulte preço</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <h5 class="card-title">Tijolo 8 Furos 9x19x29cm</h5>
+          <p class="card-text"><strong>R$ 1.500,00 o milheiro</strong></p>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Tijolo%208%20Furos%209x19x29cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -78,8 +79,8 @@
         <img src="https://acdn-us.mitiendanube.com/stores/831/827/products/tijolo_8_furos_curitiba-dc07ba5e80fae38cda17165695330388-480-0.png" class="card-img-top" alt="Tijolo 8 Furos 11,5cm">
         <div class="card-body">
           <h5 class="card-title">Tijolo 8 Furos 11,5x19x29cm</h5>
-          <p class="card-text"><strong>Consulte preço</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <p class="card-text"><strong>R$ 1.550,00 o milheiro</strong></p>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Tijolo%208%20Furos%2011,5x19x29cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
@@ -89,8 +90,8 @@
         <img src="https://images.tcdn.com.br/img/img_prod/1235569/180_tijolo_9_furos_14x19x24_ceramico_2395_1_68eda4c13ae89b64ac548924d5669de6.jpeg" class="card-img-top" alt="Tijolo 9 Furos">
         <div class="card-body">
           <h5 class="card-title">Tijolo 9 Furos 11,5x14x24cm</h5>
-          <p class="card-text"><strong>Consulte preço</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <p class="card-text"><strong>R$ 1.700,00</strong></p>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20Tijolo%209%20Furos%2011,5x14x24cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>

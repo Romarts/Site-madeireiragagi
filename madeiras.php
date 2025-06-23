@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Madeireira Gagi</title>
+  <link rel="icon" href="Site Imagens Madeireira/ICONE.png" type="icone" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
 </head>
@@ -48,7 +49,7 @@
 </nav>
 
 <div class="container my-5">
-  <h2 class="text-center mb-4">Vigas</h2>
+  <h1 class="text-center mb-4">Madeiras</h1>
   <div class="row g-4">
 
     <div class="col-sm-6 col-md-4 col-lg-3">
@@ -75,7 +76,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x10cm">
+        <img src="https://ts4.mm.bing.net/th?id=OIP.cuLzsGPt7ildFtVxJIsWGQHaHa&pid=15.1" class="card-img-top" alt="Viga Tauari 5x10cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x10cm</h5>
           <p class="card-text"><strong>R$25,00 o metro</strong></p>
@@ -86,7 +87,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x10cm">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_704466-MLB27728512648_072018-V.jpg" class="card-img-top" alt="Viga Garapeira 5,5x10cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x10cm</h5>
           <p class="card-text"><strong>R$49,50 o metro</strong></p>
@@ -97,7 +98,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Viga Eucalipto 5x15cm">
+        <img src="https://lojaobramax.vtexassets.com/arquivos/ids/20590972-1200-1200?v=638860170571470000&width=1200&height=1200&aspect=true" class="card-img-top" alt="Viga Eucalipto 5x15cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x15cm</h5>
           <p class="card-text"><strong>R$ 15,00 o metro</strong></p>
@@ -108,7 +109,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Viga Tauari 5x15cm">
+        <img src="https://product-hub-prd.madeiramadeira.com.br/151080180/images/e921b955-46af-411c-98b1-eff1e0d21e51297a9dcf26e3ce0b44197e0578.jpg?width=700&canvas=1:1&bg-color=FFF" class="card-img-top" alt="Viga Tauari 5x15cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x15cm</h5>
           <p class="card-text"><strong>R$ 37,50 o metro</strong></p>
@@ -119,7 +120,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x15cm">
+        <img src="https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(fff):quality(80)/coutomat/catalog/whatsapp-image-2022-07-06-at-104150.jpeg" class="card-img-top" alt="Viga Garapeira 5,5x15cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x15cm</h5>
           <p class="card-text"><strong>R$ 75,00 o metro</strong></p>
@@ -130,7 +131,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Eucalipto 5x20cm">
+        <img src="https://cdn.leroymerlin.com.br/products/viga_saligna_bruta_5cmx11cmx3m_madvei_89377085_2603_600x600.jpeg" class="card-img-top" alt="Viga Eucalipto 5x20cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x20cm</h5>
           <p class="card-text"><strong>R$ 20,00 o metro</strong></p>
@@ -141,7 +142,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x20cm">
+        <img src="https://images.tcdn.com.br/img/img_prod/985953/viga_5x15_perobinha_aparelhada_central_norte_madeiras_929_1_3c33c817935e6b379a4207601e0e14a8.jpg" class="card-img-top" alt="Viga Tauari 5x20cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x20cm</h5>
           <p class="card-text"><strong>R$ 50,00 o metro</strong></p>
@@ -152,7 +153,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x20cm">
+        <img src="https://http2.mlstatic.com/D_956718-MLB79002160488_092024-C.jpg" class="card-img-top" alt="Viga Garapeira 5,5x20cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x20cm</h5>
           <p class="card-text"><strong>R$ 99,00 o metro</strong></p>
@@ -163,7 +164,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Eucalipto 5x25cm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmx1KAIlMQH-QylE9rWRiX4CPQVLgxY4jJRg2LU6LkM_QTR8CbaIzPtpI&s=10" class="card-img-top" alt="Viga Eucalipto 5x25cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x25cm</h5>
           <p class="card-text"><strong>R$ 25,00 o metro</strong></p>
@@ -174,7 +175,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x25cm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTShejVs_-8-HTf5Tj1wQSNXhnKrosd0a5c0g&usqp=CAU" class="card-img-top" alt="Viga Tauari 5x25cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x25cm</h5>
           <p class="card-text"><strong>R$ 62,50 o metro</strong></p>
@@ -185,7 +186,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5,5x25cm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcs6C3evGRHHTTq08CnCQBhsKYqrNOLXsslRtQQ_MRdGWQULkTiuXv9kQ0&s=10" class="card-img-top" alt="Viga Garapeira 5,5x25cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5,5x25cm</h5>
           <p class="card-text"><strong>R$ 123,75 o metro</strong></p>
@@ -196,7 +197,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Eucalipto 5x30cm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR216qLwfkH8CcBhB6R3Q51yHSaZF-vesQ-O1UkRL4L09S1EWfHDjFGXtR5&s=10" class="card-img-top" alt="Viga Eucalipto 5x30cm">
         <div class="card-body">
           <h5 class="card-title">Viga Eucalipto 5x30cm</h5>
           <p class="card-text"><strong>R$ 36,00 o metro</strong></p>
@@ -207,7 +208,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Tauari 5x30cm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1RY5x3hCmocXzYIeSHuSu_lXI_I0ZEZSYihinJ3p7YxaeyLPJ0mUWqcY&s=10" class="card-img-top" alt="Viga Tauari 5x30cm">
         <div class="card-body">
           <h5 class="card-title">Viga Tauari 5x30cm</h5>
           <p class="card-text"><strong>R$ 75,00 o metro</strong></p>
@@ -218,7 +219,7 @@
 
     <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Viga Garapeira 5x30cm">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0jgdqBq4fXc272QaMEXOBw2G7yiXEzEEnkiFfLuJxwxc2L2m32AOcZZK&s=10" class="card-img-top" alt="Viga Garapeira 5x30cm">
         <div class="card-body">
           <h5 class="card-title">Viga Garapeira 5x30cm</h5>
           <p class="card-text"><strong>R$ 135,00 o metro</strong></p>
@@ -229,237 +230,6 @@
 
   </div>
 </div>
-
-<br>
-<br>
-
-<div class="container my-5">
-  <h2 class="text-center mb-4">Tábuas</h2>
-  <div class="row g-4">
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Pinus 10cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Pinus 10cm</h5>
-          <p class="card-text"><strong>R$ 3,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Eucalipto 10cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Eucalipto 10cm</h5>
-          <p class="card-text"><strong>R$ 5,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 10cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Tauari 10cm</h5>
-          <p class="card-text"><strong>R$ 12,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 10cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Garapeira 10cm</h5>
-          <p class="card-text"><strong>R$ 22,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 15cm -->
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Pinus 15cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Pinus 15cm</h5>
-          <p class="card-text"><strong>R$ 5,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Eucalipto 15cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Eucalipto 15cm</h5>
-          <p class="card-text"><strong>R$ 7,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 15cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Tauari 15cm</h5>
-          <p class="card-text"><strong>R$ 18,75 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 15cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Garapeira 15cm</h5>
-          <p class="card-text"><strong>R$ 33,75 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 20cm -->
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Tábua Pinus 20cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Pinus 20cm</h5>
-          <p class="card-text"><strong>R$ 6,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Tábua Eucalipto 20cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Eucalipto 20cm</h5>
-          <p class="card-text"><strong>R$ 10,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 20cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Tauari 20cm</h5>
-          <p class="card-text"><strong>R$ 25,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 20cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Garapeira 20cm</h5>
-          <p class="card-text"><strong>R$ 45,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 25cm -->
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Pinus 25cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Pinus 25cm</h5>
-          <p class="card-text"><strong>R$ 8,40 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Eucalipto 25cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Eucalipto 25cm</h5>
-          <p class="card-text"><strong>R$ 12,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Tábua Tauari 25cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Tauari 25cm</h5>
-          <p class="card-text"><strong>R$ 31,25 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Tábua Garapeira 25cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Garapeira 25cm</h5>
-          <p class="card-text"><strong>R$ 56,25 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 30cm -->
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://www.beijaflormadeiras.com.br/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/a/tabuapinusap_4.jpg" class="card-img-top" alt="Tábua Pinus 30cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Pinus 30cm</h5>
-          <p class="card-text"><strong>R$ 12,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://images.tcdn.com.br/img/img_prod/1292555/tabua_de_eucalipto_3x20_cm_com_4_metros_16371_1_0539d2fb4f99ae882b8568a276d5782d.jpg" class="card-img-top" alt="Tábua Eucalipto 30cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Eucalipto 30cm</h5>
-          <p class="card-text"><strong>R$ 18,00 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Tauari 30cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Tauari 30cm</h5>
-          <p class="card-text"><strong>R$ 37,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="card h-100">
-        <img src="https://via.placeholder.com/200x150" class="card-img-top" alt="Tábua Garapeira 30cm">
-        <div class="card-body">
-          <h5 class="card-title">Tábua Garapeira 30cm</h5>
-          <p class="card-text"><strong>R$ 71,50 o metro</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
-        </div>
-      </div>
-    </div>
 
   </div>
 </div>
