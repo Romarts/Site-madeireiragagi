@@ -198,6 +198,9 @@
               <label for="mensagem">Mensagem:</label>
               <input type="text" id="mensagem" class="form-control">
 
+              <label for="endereco">Endereço:</label>
+              <input type="text" id="endereco" class="form-control">
+
 
             <label>Entrega na cidade?</label>
             <br>
@@ -225,9 +228,10 @@
             var email = document.getElementById("email").value
             var telefone = document.getElementById("telefone").value
             var mensagem = document.getElementById("mensagem").value
+            var endereco = document.getElementById("endereco").value
             var cidade = document.getElementById("cidade").value;
 
-            if (nome == "" && email == "" && telefone == "" && mensagem == ""){
+            if (nome == "" && email == "" && telefone == "" && mensagem == "" && endereco == ""){
                 alert("Preencha todos os campos para enviar");
             } else{
                 if(nome == ""){
@@ -245,6 +249,11 @@
                 if(mensagem == ""){
                     alert("Informe uma mensagem")
                 }
+
+                if(endereco == ""){
+                    alert("Informe um endereço")
+                }
+
             }
                if (!email.includes("@")) {
         alert("Informe um e-mail válido.");
@@ -254,7 +263,7 @@
           alert("Por favor, informe o nome da cidade para entrega!");
           return false;
       }
-        if (nome !== "" && email !== "" && telefone !== "" && mensagem !== ""){
+        if (nome !== "" && email !== "" && telefone !== "" && mensagem !== "" && endereco !==""){
             alert("Mensagem enviada com sucesso!");
         }
     }

@@ -47,17 +47,27 @@
   </div>
 </nav>
 
-<br>
+ <div class="container my-5">
+    <h1 class="text-center mb-4">Quem Somos?</h1>
 
-<div class="container-fluid">
-  <h1 class="text-center mb-4">Quem Somos?</h1>
+    <div class="row align-items-center">
+      <!-- Texto à esquerda -->
+      <div class="col-md-6">
+        <h6>
+          A Madeireira Gagi é uma empresa especializada na comercialização de materiais de construção em Campo Mourão, Paraná. 
+          Com uma sólida reputação e avaliações positivas, oferecemos uma variedade de produtos: madeiras brutas, beneficiadas, portas, batentes e muito mais!
+        </h6>
+        <h6>
+          Estamos localizados na Av. Perimetral Tancredo de Almeida Neves, nº 2307  Jardim John Kennedy. Entre em contato para mais informações!
+        </h7>
+      </div>
 
-  <p class="text-center mb-4">A Madeireira Gagi é uma empresa especializada na comercialização de materiais de contrução em Campo Mourão, Paraná. Com uma sólida reputação e avaliações positivas, a madeireira oferece uma variedade de materiais, incluindo madeira brutas, beneficadas, portas, batentes e muito mais!
-  Estamos situados na Avenida Perimetral Tancredo de Almeida Neves, nº 2307, no bairro Jardim John Kennedy. Para mais informações, entre em contato com a nossa equipe.</p>
-<br>
-
-  <img class="img-fluid d-block mx-auto" src="Site Imagens Madeireira/Quem somos.png" alt="quem somos">
-
+      <!-- Imagem à direita -->
+      <div class="col-md-6 text-center">
+        <img src="Site Imagens Madeireira/Quem somos.png" alt="Quem Somos?" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
 <br>
 
 </div>

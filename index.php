@@ -623,7 +623,7 @@
         <div class="card-body">
           <h5 class="card-title">Dobradiça Shild Simples Cromada</h5>
           <p class="card-text"><strong>R$ 18,90</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20dobradiça%20Shild%20Simples%20Cromada" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -631,7 +631,7 @@
         <div class="card-body">
           <h5 class="card-title">Dobradiça Shild Simples Black</h5>
           <p class="card-text"><strong>R$ 18,90</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20dobradiça%20Shild%20simples%20black" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -639,7 +639,7 @@
         <div class="card-body">
           <h5 class="card-title">Dobradiça Rolamentada Cromada</h5>
           <p class="card-text"><strong>R$ 45,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20dobradiça%20de%20rolamentada%20cromada" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -647,7 +647,7 @@
         <div class="card-body">
           <h5 class="card-title">Dobradiça Rolamentada Black</h5>
           <p class="card-text"><strong>R$ 45,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20da%20dobradiça%20rolamentada%20black%20de%207cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     
@@ -669,7 +669,7 @@
         <div class="card-body">
           <h5 class="card-title">Jogo de Vista 5cm</h5>
           <p class="card-text"><strong>R$ 45,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20jogo%20de%20vista%20de%205cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -677,7 +677,7 @@
         <div class="card-body">
           <h5 class="card-title">Jogo de Vista 6cm</h5>
           <p class="card-text"><strong>R$ 75,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20jogo%20de%20vista%20de%206cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
       <div class="card produto-card">
@@ -685,7 +685,7 @@
         <div class="card-body">
           <h5 class="card-title">Jogo de Vista 7cm</h5>
           <p class="card-text"><strong>R$ 95,00</strong></p>
-          <a href="#" class="btn btn-success">Comprar</a>
+          <a href="https://wa.me/?text=Gostaria%20de%20saber%20sobre%20o%20preço%20do%20jogo%20de%20vista%20de%207cm" target="_blank" class="btn btn-success">Comprar</a>
         </div>
       </div>
     </div>
